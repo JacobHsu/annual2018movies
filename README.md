@@ -1,5 +1,8 @@
 # annual2018movies
 
+[fullPage.js](http://alvarotrigo.com/fullPage)    
+[Vue.js](https://cn.vuejs.org/v2/guide/index.html)  
+
 ### Gulp
 
 [gulp.js](https://gulpjs.com/) is a toolkit for automating painful or time-consuming tasks in your development workflow
