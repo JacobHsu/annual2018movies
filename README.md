@@ -2,6 +2,9 @@
 
 [fullPage.js](http://alvarotrigo.com/fullPage)    
 [Vue.js](https://cn.vuejs.org/v2/guide/index.html)  
+[vue-fullpage](http://alvarotrigo.com/vue-fullpage/) Official Vue.js wrapper for fullPage.js  
+[ks-vue-fullpage](https://github.com/pirony/ks-vue-fullpage)  
+[Velocity.js](https://www.npmjs.com/package/velocity-animate) Velocity is an animation engine with the same API as jQuery's $.animate(). It works with and without jQuery. 
 
 ### Gulp
 
