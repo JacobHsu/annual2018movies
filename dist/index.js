@@ -26,7 +26,7 @@ var app = new Vue({
     }
   },
   mounted() {
-    axios.get("/movies.json")
+    axios.get("data/movies.json")
     .then(response => {this.sections = response.data;})
   }
 });
