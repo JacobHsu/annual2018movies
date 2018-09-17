@@ -2,29 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>vue-fullpage</title>
+  <title>2018 movies</title>
   <link rel="stylesheet" href="ks-vue-fullpage.min.css"></link>
-  <style type="text/css">
-    body {
-      margin: 0;
-    }
-    .ksvuefp-section {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .ksvuefp-section h2{
-      text-align: center;
-      color: white;
-    }
-    .fade-enter-active, .fade-leave-active {
-      transition: all .5s;
-      opacity: 1;
-    }
-    .fade-enter, .fade-leave-active {
-      opacity: 0;
-    }
-  </style>
+  <link rel="stylesheet" href="main.css"></link>
 </head>
 <body>
   <div id="app">
@@ -36,7 +16,6 @@
       :section-index="index" 
       :background-color="section.bgColor" 
       :background-image="'url('+ section.img_url +')'">
-        <!-- Use Vue-ish way for content animations and transitions. Using !$ksvuefp.slidingActive in v-show will result in content waiting for transitions between sections to finish before animating in -->
         <transition name="fade">
           <h2 v-show="$ksvuefp.canAnimContent(index, true)"> 
             {{ section.content }}
@@ -46,36 +25,9 @@
     </ksvuefp>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
-  <script src="ks-vue-fullpage.min.js"></script>
+  <script src="ks-vue-fullpage.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.2/velocity.min.js"></script>  
-  <script type="text/javascript">
-    var app = new Vue({
-      el: '#app',
-      data: {
-        sections: [
-            {
-            bgColor: '#ec407a',
-            content: 'I am section 1',
-            img_url: './imgs/bg1.jpg'
-          },
-          {
-            bgColor: '#42a5f5',
-            content: 'I am section 2',
-            img_url: './imgs/bg2.jpg'
-          },
-          {
-            bgColor: '#66bb6a',
-            content: 'I am section 3',
-            img_url: './imgs/bg3.jpg'
-          }
-        ],
-        options: {
-          // Your custom options here
-          duration: 800,
-          overlay: false
-        }
-      }
-    })
-  </script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
