@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+.ksvuefp-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ksvuefp-section h2{
+  text-align: center;
+  color: white;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: all .5s;
+  opacity: 1;
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0;
+}
