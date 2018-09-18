@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>2018 movies</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" href="ks-vue-fullpage.min.css"></link>
   <link rel="stylesheet" href="main.css"></link>
 </head>
@@ -20,10 +21,25 @@
           <h2 v-show="$ksvuefp.canAnimContent(index, true)"> 
             {{ section.content }}
           </h2>
-        </transition>    
+        </transition>
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title text-right">2018</h4>
+            <h3 class="card-subtitle mb-2 text-muted text-right">{{ section.type }}</h3>
+            <h1 class="card-text text-white">
+                {{section.name}}
+            </h1>
+            <h3 class="card-text text-white">
+                {{section.title}}
+            </h3>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>    
       </ksvuefp-section>
     </ksvuefp>
   </div>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
   <script src="ks-vue-fullpage.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.2/velocity.min.js"></script>  

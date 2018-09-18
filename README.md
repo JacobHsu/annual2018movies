@@ -7,6 +7,10 @@
 [ks-vue-fullpage](https://github.com/pirony/ks-vue-fullpage)  
 [Velocity.js](https://www.npmjs.com/package/velocity-animate) Velocity is an animation engine with the same API as jQuery's $.animate(). It works with and without jQuery. 
 
+# References
+
+[alphacoders](http://wall.alphacoders.com) 
+
 ### Gulp
 
 [gulp.js](https://gulpjs.com/) is a toolkit for automating painful or time-consuming tasks in your development workflow
