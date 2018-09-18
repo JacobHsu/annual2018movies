@@ -1,15 +1,29 @@
 [
     {
+        "type": "科幻片",
+        "name": "一級玩家",
+        "title": "Ready Player One",
+        "star": "",
+        "bgImg": "https://images8.alphacoders.com/911/911204.jpg",
         "bgColor": "#ec407a",
         "content": "I am section 1",
         "img_url": "./imgs/bg1.jpg"
     },
     {
+        "type": "特務片",
+        "name": "不可能的任務：全面瓦解",
+        "title": "Mission: Impossible – Fallout",
+        "star": "",
+        "bgImg": "https://images8.alphacoders.com/923/923112.jpg",
         "bgColor": "#42a5f5",
         "content": "I am section 2",
         "img_url": "./imgs/bg2.jpg"
     },
     {
+        "type": "韓國片",
+        "name": "與神同行2: 最終審判",
+        "title": "Along With The Gods: The Last 49 Days",
+        "star": "",        
         "bgColor": "#66bb6a",
         "content": "I am section 3",
         "img_url": "./imgs/bg3.jpg"
