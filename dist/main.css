@@ -22,5 +22,9 @@ body {
 .card {
     background: rgba(255,255,255,0.1); 
     top: center;
+    left: 10%;
     width: 32rem;
+}
+.checked {
+    color: orange;
 }

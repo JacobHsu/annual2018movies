@@ -9,7 +9,8 @@
 
 # References
 
-[alphacoders](http://wall.alphacoders.com) 
+[alphacoders](http://wall.alphacoders.com)  
+[Font Awesome](https://fontawesome.com/icons?d=gallery&q=star)   
 
 ### Gulp
 
