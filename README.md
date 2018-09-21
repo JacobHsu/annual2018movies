@@ -11,6 +11,7 @@
 
 [alphacoders](http://wall.alphacoders.com)  
 [Font Awesome](https://fontawesome.com/icons?d=gallery&q=star)   
+[omdbapi](http://www.omdbapi.com)  
 
 ### Gulp
 

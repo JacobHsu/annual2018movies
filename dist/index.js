@@ -1,3 +1,12 @@
+let apikey = '4e1e08f0';
+let api = function(title) {
+    switch(title) {     
+        default:
+            return 'https://www.omdbapi.com/?'+'apikey='+apikey+'&t=' + title + '&type=movie&tomatoes=true';
+    }
+}
+
+
 let app = new Vue({
   el: '#app',
   data: {
@@ -27,6 +36,20 @@ let app = new Vue({
   },
   mounted() {
     axios.get("data/movies.json")
-    .then(response => {this.sections = response.data;})
+    .then(response => {
+
+      let thatSections = this.sections;
+      response.data.forEach(function(movie, key) {
+
+          var movieApi = api(movie.title);
+          axios.get(movieApi)
+          .then(omdbapi => {
+            movie['imdb'] = omdbapi.data.imdbRating;
+            thatSections.push(movie);
+          });
+
+      });
+
+    })
   }
 });
