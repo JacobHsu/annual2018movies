@@ -655,7 +655,7 @@ exports.default = {
    * @property {Boolean} loopTop - Go to last section on scroll up while watching first section
   */
   dotNavEnabled: true,
-  dotNavColor: '#fff',
+  dotNavColor: '#d3d3d3',//'#fff',
   loopBottom: false,
   loopTop: false,
   /**

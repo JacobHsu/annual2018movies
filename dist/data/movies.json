@@ -20,12 +20,24 @@
         "img_url": "./imgs/bg2.jpg"
     },
     {
-        "type": "韓國片",
-        "name": "與神同行2: 最終審判",
-        "title": "Along With The Gods: The Last 49 Days",
-        "star": "",        
+        "type": "日本片",
+        "name": "一屍到底",
+        "title": "One Cut of the Dead",
+        "star": "", 
+        "bgImg": "https://i.ytimg.com/vi/MZrlv8n4QAs/maxresdefault.jpg",       
         "bgColor": "#66bb6a",
         "content": "I am section 3",
         "img_url": "./imgs/bg3.jpg"
+    },
+    {
+        "type": "韓國片",
+        "name": "與神同行2: 最終審判",
+        "title": "Along With The Gods: The Last 49 Days",
+        "star": "", 
+        "bgImg": "https://cdn-images-1.medium.com/max/1600/1*UsPtT4v17SJKPbVzHDbpbg.jpeg",       
+        "bgColor": "#66bb6a",
+        "content": "I am section 4",
+        "img_url": "./imgs/bg4.jpg"
     }
+
 ]
