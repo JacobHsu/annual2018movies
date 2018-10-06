@@ -17,7 +17,7 @@
       :section="section" :key="section.bgColor" 
       :section-index="index" 
       :background-color="section.bgColor" 
-      :background-image="'url('+ section.img_url +')'">
+      :background-image="'url('+ section.bgImg +')'">
         <transition name="fade">
           <h2 v-show="$ksvuefp.canAnimContent(index, true)"> 
             {{ section.content }}
