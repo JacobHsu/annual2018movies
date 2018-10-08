@@ -28,7 +28,6 @@ let app = new Vue({
     //   }
     // ],
     sections: [],
-    sections2: [],
     options: {
       // Your custom options here
       duration: 800,
@@ -40,12 +39,12 @@ let app = new Vue({
     .then(response => {
 
       let thatSections = this.sections;
-      let thatSections2 = this.sections2;
       response.data.forEach(function(movie, key) {
           var movieApi = api(movie.title);
           axios.get(movieApi)
           .then(omdbapi => {
             movie['imdb'] = omdbapi.data.imdbRating;
+            movie['tomatoRating'] = !omdbapi.data.Ratings[1] ? '' : omdbapi.data.Ratings[1].Value;
             thatSections.splice(key, 0, movie);
           });
 
