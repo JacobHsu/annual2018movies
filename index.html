@@ -42,6 +42,10 @@
                 <span class="rank">
                     <img border="0" src="pics/imdb.png" width="24" height="14">  
                     <span class="text-white">{{section.imdb}}</span>
+                    <span v-if="section.tomatoRating"> 
+                        <img border="0" src="https://staticv2-4.rottentomatoes.com/static/images/icons/fresh-16.png" width="16" height="16">
+                        <span class="text-white">{{section.tomatoRating}}</span>
+                    </span> 
                 </span>
             </div>
           </div>
