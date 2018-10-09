@@ -5,6 +5,7 @@
         "title": "Ready Player One",
         "star": "checked",
         "bgImg": "https://images8.alphacoders.com/911/911204.jpg",
+        "list": ["Ready Player One","The Shape of Water","Annihilation"],
         "bgColor": "#ec407a",
         "content": "I am section 1",
         "img_url": "./imgs/bg1.jpg"
@@ -15,6 +16,7 @@
         "title": "Mission: Impossible – Fallout",
         "star": "checked",
         "bgImg": "https://images8.alphacoders.com/936/thumb-1920-936032.jpg",
+        "list": ["Mission: Impossible – Fallout","Tomb Raider"],
         "bgColor": "#42a5f5",
         "content": "I am section 2",
         "img_url": "./imgs/bg2.jpg"
@@ -24,7 +26,8 @@
         "name": "一屍到底",
         "title": "One Cut of the Dead",
         "star": "", 
-        "bgImg": "https://i.ytimg.com/vi/MZrlv8n4QAs/maxresdefault.jpg",       
+        "bgImg": "https://i.ytimg.com/vi/MZrlv8n4QAs/maxresdefault.jpg",
+        "list": ["One Cut of the Dead","Mumon","DESTINY:The Tale of Kamakura"],       
         "bgColor": "#66bb6a",
         "content": "I am section 3",
         "img_url": "./imgs/bg3.jpg"
@@ -34,7 +37,8 @@
         "name": "與神同行2: 最終審判",
         "title": "Along With The Gods: The Last 49 Days",
         "star": "", 
-        "bgImg": "https://cdn-images-1.medium.com/max/1600/1*UsPtT4v17SJKPbVzHDbpbg.jpeg",       
+        "bgImg": "https://cdn-images-1.medium.com/max/1600/1*UsPtT4v17SJKPbVzHDbpbg.jpeg",
+        "list": ["Along With The Gods: The Last 49 Days"],        
         "bgColor": "#66bb6a",
         "content": "I am section 4",
         "img_url": "./imgs/bg4.jpg"

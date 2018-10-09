@@ -28,6 +28,7 @@ let app = new Vue({
     //   }
     // ],
     sections: [],
+    lists: [],
     options: {
       // Your custom options here
       duration: 800,
@@ -39,16 +40,28 @@ let app = new Vue({
     .then(response => {
 
       let thatSections = this.sections;
-      response.data.forEach(function(movie, key) {
-          var movieApi = api(movie.title);
+      let thatList = this.lists;
+      response.data.forEach(function(movie, id) {
+          let movieApi = api(movie.title);
           axios.get(movieApi)
           .then(omdbapi => {
             movie['imdb'] = omdbapi.data.imdbRating;
             movie['tomatoRating'] = !omdbapi.data.Ratings[1] ? '' : omdbapi.data.Ratings[1].Value;
-            thatSections.splice(key, 0, movie);
+            thatSections.splice(id, 0, movie);
+          });
+ 
+          let movieList = [];
+          movie.list.forEach(function(shortlist, key) {
+            console.log(shortlist, key);
+            axios.get( api(shortlist) )
+            .then(omdbapi => {
+              movieList.push(omdbapi.data.Poster);
+              thatList[id] = movieList;
+            });
           });
 
       });
+
 
     })
   }
