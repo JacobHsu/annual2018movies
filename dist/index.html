@@ -18,11 +18,11 @@
       :section-index="index" 
       :background-color="section.bgColor" 
       :background-image="'url('+ section.bgImg +')'">
-        <transition name="fade">
+<!--         <transition name="fade">
           <h2 v-show="$ksvuefp.canAnimContent(index, true)"> 
             {{ section.content }}
           </h2>
-        </transition>
+        </transition> -->
         <div class="card">
           <div class="card-body">
             <h4 class="card-title text-white text-right">2018個人評價最高的</h4>
@@ -49,7 +49,20 @@
                 </span>
             </div>
           </div>
-        </div>    
+        </div>
+
+        <div class="container shortlist d-flex justify-content-center align-self-end">
+          <ul class="nav">
+            <li class="nav-item" v-for="(list,key) in lists[index]">
+              <a class="nav-link" href="#">
+                <img v-bind:src="list" height="150px">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+
+
       </ksvuefp-section>
     </ksvuefp>
   </div>

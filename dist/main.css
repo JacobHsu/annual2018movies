@@ -28,3 +28,7 @@ body {
 .checked {
     color: orange;
 }
+
+.shortlist {
+  margin-top: 25rem; 
+}
