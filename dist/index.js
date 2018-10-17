@@ -35,32 +35,49 @@ let app = new Vue({
       overlay: false
     }
   },
-  mounted() {
+  created() {
     axios.get("data/movies.json")
     .then(response => {
 
       let thatSections = this.sections;
       let thatList = this.lists;
-      response.data.forEach(function(movie, id) {
-          let movieApi = api(movie.title);
-          axios.get(movieApi)
-          .then(omdbapi => {
-            movie['imdb'] = omdbapi.data.imdbRating;
-            movie['tomatoRating'] = !omdbapi.data.Ratings[1] ? '' : omdbapi.data.Ratings[1].Value;
-            thatSections.splice(id, 0, movie);
-          });
- 
-          let movieList = [];
-          movie.list.forEach(function(shortlist, key) {
-            console.log(shortlist, key);
-            axios.get( api(shortlist) )
-            .then(omdbapi => {
-              movieList.push(omdbapi.data.Poster);
-              thatList[id] = movieList;
-            });
-          });
 
+      let omdbapi = [];
+      let sub_omdbapi = [];
+      let movies = [];
+      response.data.forEach(function(movie,id) {
+        let movieApi = api(movie.title);
+        omdbapi.push(axios.get(movieApi));
+        
+        movies.push(movie);
+
+        sub_omdbapi.push([]);
+        movie.list.forEach(function(shortlist, key) {
+          sub_omdbapi[id].push(axios.get( api(shortlist)));
+        });
       });
+
+
+      axios.all(omdbapi).then(axios.spread((...res)=>{
+        res.forEach(function(resOmdb, id) {
+          movies[id]['imdb'] = resOmdb.data.imdbRating;
+          movies[id]['tomatoRating'] = !resOmdb.data.Ratings[1] ? '' : resOmdb.data.Ratings[1].Value;
+          
+          //thatSections.splice(id, 0, movie_tmps[id]);
+          thatSections.push(movies[id]);
+
+          thatList.push([]);
+          
+          axios.all(sub_omdbapi[id]).then(axios.spread((...sub_res)=>{
+            //console.log("======>"+id, movies[id],sub_res);
+            sub_res.forEach(function(sub_resOmdb, key) {
+              //console.warn(sub_resOmdb.data.Title); //Poster
+              thatList[id].push(sub_resOmdb.data.Poster);
+            });
+
+          }));
+        });
+      }));
 
 
     })
