@@ -54,8 +54,8 @@
         <div class="container shortlist d-flex justify-content-center align-self-end  v-cloak">
           <ul class="nav" >
             <li class="nav-item" v-for="(list,key) in lists[index]">
-              <a class="nav-link" href="#">
-                <img v-bind:src="list" height="150px">
+              <a class="nav-link" :href="'https://www.google.com.tw/search?q='+list.title" target="_blank" :title="list.title">
+                <img v-bind:src="list.poster" height="150px">
               </a>
             </li>
           </ul>
