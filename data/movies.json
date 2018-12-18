@@ -5,7 +5,7 @@
         "title": "Ready Player One",
         "star": "checked",
         "bgImg": "https://images8.alphacoders.com/911/911204.jpg",
-        "list": ["Ready Player One","The Shape of Water","Annihilation"],
+        "list": ["Ready Player One","The Shape of Water","Annihilation","Mortal Engines","Maze Runner: The Death Cure"],
         "bgColor": "#ec407a",
         "content": "I am section 1",
         "img_url": "./imgs/bg1.jpg"

@@ -72,7 +72,7 @@ let app = new Vue({
             //console.log("======>"+id, movies[id],sub_res);
             sub_res.forEach(function(sub_resOmdb, key) {
               //console.warn(sub_resOmdb.data.Title); //Poster
-              thatList[id].push(sub_resOmdb.data.Poster);
+              thatList[id].push({poster:sub_resOmdb.data.Poster,title:sub_resOmdb.data.Title});
             });
 
           }));
