@@ -12,6 +12,7 @@
 [alphacoders](http://wall.alphacoders.com)  
 [Font Awesome](https://fontawesome.com/icons?d=gallery&q=star)   
 [omdbapi](http://www.omdbapi.com)  
+Bootstrap 4 [Display property](https://getbootstrap.com/docs/4.0/utilities/display/)  
 
 ### Gulp
 

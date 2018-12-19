@@ -23,8 +23,9 @@ body {
     background: rgba(255,255,255,0.1); 
     top: center;
     left: 10%;
-    width: 32rem;
+    width: 35rem;
 }
+
 .checked {
     color: orange;
 }
@@ -32,3 +33,4 @@ body {
 .shortlist {
   margin-top: 15rem; 
 }
+

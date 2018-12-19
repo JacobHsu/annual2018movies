@@ -23,7 +23,7 @@
             {{ section.content }}
           </h2>
         </transition> -->
-        <div class="card">
+        <div class="card d-none d-lg-block">
           <div class="card-body">
             <h4 class="card-title text-white text-right">2018個人評價最高的</h4>
             <h3 class="card-subtitle mb-2 text-white text-right">{{ section.type }}</h3>
@@ -48,6 +48,15 @@
                     </span> 
                 </span>
             </div>
+          </div>
+        </div>
+
+        <div class="card d-none d-md-block d-lg-none">
+          <div class="card-body">
+            <h1 class="card-title text-white">2018個人評價最高的 {{ section.type }}</h1>
+            <h1 class="card-text text-white">
+                {{section.name}}
+            </h1>
           </div>
         </div>
 
