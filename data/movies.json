@@ -11,6 +11,17 @@
         "img_url": "./imgs/bg1.jpg"
     },
     {
+        "type": "動畫片",
+        "name": "蜘蛛人：新宇宙",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "star": "checked",
+        "bgImg": "https://images2.alphacoders.com/971/thumb-1920-971275.jpg",
+        "list": ["Spider-Man: Into the Spider-Verse","Isle of Dogs"],
+        "bgColor": "#ec407a",
+        "content": "I am section 2",
+        "img_url": "./imgs/bg1.jpg"
+    },
+    {
         "type": "特務片",
         "name": "不可能的任務：全面瓦解",
         "title": "Mission: Impossible – Fallout",
@@ -18,7 +29,7 @@
         "bgImg": "https://images8.alphacoders.com/936/thumb-1920-936032.jpg",
         "list": ["Mission: Impossible – Fallout","Tomb Raider"],
         "bgColor": "#42a5f5",
-        "content": "I am section 2",
+        "content": "I am section 3",
         "img_url": "./imgs/bg2.jpg"
     },
     {
@@ -29,7 +40,7 @@
         "bgImg": "https://i.ytimg.com/vi/MZrlv8n4QAs/maxresdefault.jpg",
         "list": ["One Cut of the Dead","Mumon","DESTINY:The Tale of Kamakura"],       
         "bgColor": "#66bb6a",
-        "content": "I am section 3",
+        "content": "I am section 4",
         "img_url": "./imgs/bg3.jpg"
     },
     {
@@ -40,7 +51,7 @@
         "bgImg": "https://cdn-images-1.medium.com/max/1600/1*UsPtT4v17SJKPbVzHDbpbg.jpeg",
         "list": ["Along With The Gods: The Last 49 Days"],        
         "bgColor": "#66bb6a",
-        "content": "I am section 4",
+        "content": "I am section 5",
         "img_url": "./imgs/bg4.jpg"
     }
 
