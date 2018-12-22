@@ -1,14 +1,19 @@
 [
     {
+        "type": "超級英雄片",
+        "name": "復仇者聯盟3: 無限之戰",
+        "title": "Avengers: Infinity War",
+        "star": "checked",
+        "bgImg": "https://images7.alphacoders.com/857/thumb-1920-857340.jpg",
+        "list": ["Avengers: Infinity War","Ant-Man and the Wasp","Aquaman","Venom"]
+    },
+    {
         "type": "科幻片",
         "name": "一級玩家",
         "title": "Ready Player One",
         "star": "checked",
         "bgImg": "https://images8.alphacoders.com/911/911204.jpg",
-        "list": ["Ready Player One","The Shape of Water","Annihilation","Mortal Engines","Maze Runner: The Death Cure"],
-        "bgColor": "#ec407a",
-        "content": "I am section 1",
-        "img_url": "./imgs/bg1.jpg"
+        "list": ["Ready Player One","The Shape of Water","Annihilation","Mortal Engines","Maze Runner: The Death Cure","A Quiet Place"]
     },
     {
         "type": "動畫片",
@@ -16,10 +21,7 @@
         "title": "Spider-Man: Into the Spider-Verse",
         "star": "checked",
         "bgImg": "https://images2.alphacoders.com/971/thumb-1920-971275.jpg",
-        "list": ["Spider-Man: Into the Spider-Verse","Isle of Dogs"],
-        "bgColor": "#ec407a",
-        "content": "I am section 2",
-        "img_url": "./imgs/bg1.jpg"
+        "list": ["Spider-Man: Into the Spider-Verse","Isle of Dogs"]
     },
     {
         "type": "特務片",
@@ -27,10 +29,7 @@
         "title": "Mission: Impossible – Fallout",
         "star": "checked",
         "bgImg": "https://images8.alphacoders.com/936/thumb-1920-936032.jpg",
-        "list": ["Mission: Impossible – Fallout","Tomb Raider"],
-        "bgColor": "#42a5f5",
-        "content": "I am section 3",
-        "img_url": "./imgs/bg2.jpg"
+        "list": ["Mission: Impossible – Fallout","Tomb Raider"]
     },
     {
         "type": "日本片",
@@ -38,10 +37,7 @@
         "title": "One Cut of the Dead",
         "star": "", 
         "bgImg": "https://i.ytimg.com/vi/MZrlv8n4QAs/maxresdefault.jpg",
-        "list": ["One Cut of the Dead","Mumon","DESTINY:The Tale of Kamakura"],       
-        "bgColor": "#66bb6a",
-        "content": "I am section 4",
-        "img_url": "./imgs/bg3.jpg"
+        "list": ["One Cut of the Dead","Mumon","DESTINY:The Tale of Kamakura"]
     },
     {
         "type": "韓國片",
@@ -49,10 +45,7 @@
         "title": "Along With The Gods: The Last 49 Days",
         "star": "", 
         "bgImg": "https://cdn-images-1.medium.com/max/1600/1*UsPtT4v17SJKPbVzHDbpbg.jpeg",
-        "list": ["Along With The Gods: The Last 49 Days"],        
-        "bgColor": "#66bb6a",
-        "content": "I am section 5",
-        "img_url": "./imgs/bg4.jpg"
+        "list": ["Along With The Gods: The Last 49 Days"]
     }
 
 ]

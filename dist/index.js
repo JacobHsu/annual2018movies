@@ -2,6 +2,7 @@ let apikey = '4e1e08f0';
 let api = function(title) {
     switch(title) {     
         default:
+            //https://www.omdbapi.com/?apikey=4e1e08f0&t=
             return 'https://www.omdbapi.com/?'+'apikey='+apikey+'&t=' + title + '&type=movie&tomatoes=true';
     }
 }
