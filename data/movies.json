@@ -5,7 +5,7 @@
         "title": "Avengers: Infinity War",
         "star": "checked",
         "bgImg": "https://images7.alphacoders.com/857/thumb-1920-857340.jpg",
-        "list": ["Avengers: Infinity War","Ant-Man and the Wasp","Aquaman","Venom"]
+        "list": ["Avengers: Infinity War","Ant-Man and the Wasp","Aquaman","Black Panther","Deadpool 2","Venom"]
     },
     {
         "type": "科幻片",
@@ -13,7 +13,15 @@
         "title": "Ready Player One",
         "star": "checked",
         "bgImg": "https://images8.alphacoders.com/911/911204.jpg",
-        "list": ["Ready Player One","The Shape of Water","Annihilation","Mortal Engines","Maze Runner: The Death Cure","A Quiet Place"]
+        "list": ["Ready Player One","The Shape of Water","Annihilation","A Quiet Place","Jurassic World: Fallen Kingdom","Pacific Rim: Uprising","Solo: A Star Wars Story"]
+    },
+    {
+        "type": "小說改編",
+        "name": "移動城市：致命引擎",
+        "title": "Mortal Engines",
+        "star": "",
+        "bgImg": "https://images5.alphacoders.com/968/thumb-1920-968275.jpg",
+        "list": ["Mortal Engines","Maze Runner: The Death Cure","Fantastic Beasts: The Crimes of Grindelwald"]
     },
     {
         "type": "動畫片",
@@ -21,15 +29,31 @@
         "title": "Spider-Man: Into the Spider-Verse",
         "star": "checked",
         "bgImg": "https://images2.alphacoders.com/971/thumb-1920-971275.jpg",
-        "list": ["Spider-Man: Into the Spider-Verse","Isle of Dogs"]
+        "list": ["Spider-Man: Into the Spider-Verse","Isle of Dogs","Ralph Breaks the Internet"]
     },
     {
-        "type": "特務片",
+        "type": "動作片",
         "name": "不可能的任務：全面瓦解",
         "title": "Mission: Impossible – Fallout",
         "star": "checked",
         "bgImg": "https://images8.alphacoders.com/936/thumb-1920-936032.jpg",
-        "list": ["Mission: Impossible – Fallout","Tomb Raider"]
+        "list": ["Mission: Impossible – Fallout","Tomb Raider","12 Strong","The Meg"]
+    },
+    {
+        "type": "犯罪片",
+        "name": "無雙",
+        "title": "Project Gutenberg",
+        "star": "",
+        "bgImg": "http://5b0988e595225.cdn.sohucs.com/images/20181002/8eb262cdf5be4c208a4dab89b191b6ff.jpeg",
+        "list": ["Project Gutenberg","Ocean's Eight","Sicario: Day of the Soldado"]
+    },
+    {
+        "type": "喜劇片",
+        "name": "遊戲夜殺必死",
+        "title": "Game Night",
+        "star": "",
+        "bgImg": "https://images5.alphacoders.com/929/thumb-1920-929764.jpg",
+        "list": ["Game Night","Secrets in the Hot Spring"]
     },
     {
         "type": "日本片",
