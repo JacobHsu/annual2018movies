@@ -1,6 +1,9 @@
 let apikey = '4e1e08f0';
 let api = function(title) {
-    switch(title) {     
+    switch(title) {
+        case "More Than Blue":
+            return 'https://www.omdbapi.com/?'+'apikey='+apikey+'&t=' + title + '&y=2018&type=movie&tomatoes=true';
+            break;     
         default:
             //https://www.omdbapi.com/?apikey=4e1e08f0&t=
             return 'https://www.omdbapi.com/?'+'apikey='+apikey+'&t=' + title + '&type=movie&tomatoes=true';
