@@ -1,5 +1,6 @@
 [
     {
+        "genre":"Superhero film",
         "type": "超級英雄片",
         "name": "復仇者聯盟3: 無限之戰",
         "title": "Avengers: Infinity War",
@@ -8,6 +9,7 @@
         "list": ["Avengers: Infinity War","Ant-Man and the Wasp","Aquaman","Black Panther","Deadpool 2","Venom"]
     },
     {
+        "genre":"Science fiction film",
         "type": "科幻片",
         "name": "一級玩家",
         "title": "Ready Player One",
@@ -16,14 +18,16 @@
         "list": ["Ready Player One","The Shape of Water","Annihilation","A Quiet Place","Jurassic World: Fallen Kingdom","Pacific Rim: Uprising","Solo: A Star Wars Story"]
     },
     {
+        "genre":"Films based on novels",
         "type": "小說改編",
-        "name": "移動城市：致命引擎",
-        "title": "Mortal Engines",
+        "name": "一級玩家",
+        "title": "Ready Player One",
         "star": "",
-        "bgImg": "https://images5.alphacoders.com/968/thumb-1920-968275.jpg",
-        "list": ["Mortal Engines","Maze Runner: The Death Cure","Fantastic Beasts: The Crimes of Grindelwald"]
+        "bgImg": "https://images6.alphacoders.com/909/thumb-1920-909870.jpg",
+        "list": ["Ready Player One","Mortal Engines","Maze Runner: The Death Cure","Fantastic Beasts: The Crimes of Grindelwald"]
     },
     {
+        "genre":"Animation",
         "type": "動畫片",
         "name": "蜘蛛人：新宇宙",
         "title": "Spider-Man: Into the Spider-Verse",
@@ -32,6 +36,7 @@
         "list": ["Spider-Man: Into the Spider-Verse","Isle of Dogs","Ralph Breaks the Internet"]
     },
     {
+        "genre":"Action film",
         "type": "動作片",
         "name": "不可能的任務：全面瓦解",
         "title": "Mission: Impossible – Fallout",
@@ -40,6 +45,7 @@
         "list": ["Mission: Impossible – Fallout","Tomb Raider","12 Strong","The Meg"]
     },
     {
+        "genre":"Crime film",
         "type": "犯罪片",
         "name": "無雙",
         "title": "Project Gutenberg",
@@ -48,6 +54,7 @@
         "list": ["Project Gutenberg","Ocean's Eight","Sicario: Day of the Soldado"]
     },
     {
+        "genre":"Comedy film",
         "type": "喜劇片",
         "name": "遊戲夜殺必死",
         "title": "Game Night",
@@ -56,6 +63,16 @@
         "list": ["Game Night","Secrets in the Hot Spring"]
     },
     {
+        "genre":"Taiwan film",
+        "type": "台灣片",
+        "name": "比悲傷更悲傷的故事",
+        "title": "More Than Blue",
+        "star": "",
+        "bgImg": "https://cdn.hk01.com/di/media/images/2174903/org/b8e818dad363cfa40ab1837ad55e0e91.jpg/FgbCTzEAkvvyHJj9f3EvSen8YOKQrgEtsjkVErI5FRI?v=w1920",
+        "list": ["More Than Blue","Secrets in the Hot Spring"]
+    },
+    {
+        "genre":"Japan film",
         "type": "日本片",
         "name": "一屍到底",
         "title": "One Cut of the Dead",
@@ -64,6 +81,7 @@
         "list": ["One Cut of the Dead","Mumon","DESTINY:The Tale of Kamakura"]
     },
     {
+        "genre":"South Korea film",
         "type": "韓國片",
         "name": "與神同行2: 最終審判",
         "title": "Along With The Gods: The Last 49 Days",
