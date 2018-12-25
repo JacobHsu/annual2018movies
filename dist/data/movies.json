@@ -22,7 +22,7 @@
         "type": "小說改編",
         "name": "一級玩家",
         "title": "Ready Player One",
-        "star": "",
+        "star": "checked",
         "bgImg": "https://images6.alphacoders.com/909/thumb-1920-909870.jpg",
         "list": ["Ready Player One","Mortal Engines","Maze Runner: The Death Cure","Fantastic Beasts: The Crimes of Grindelwald"]
     },
@@ -47,11 +47,11 @@
     {
         "genre":"Crime film",
         "type": "犯罪片",
-        "name": "無雙",
-        "title": "Project Gutenberg",
-        "star": "",
-        "bgImg": "http://5b0988e595225.cdn.sohucs.com/images/20181002/8eb262cdf5be4c208a4dab89b191b6ff.jpeg",
-        "list": ["Project Gutenberg","Ocean's Eight","Sicario: Day of the Soldado"]
+        "name": "人肉搜索",
+        "title": "Searching",
+        "star": "checked",
+        "bgImg": "https://spcdn.co/wp-content/uploads/2018/08/68-3.jpg",
+        "list": ["Searching","Project Gutenberg","Ocean's Eight","Sicario: Day of the Soldado"]
     },
     {
         "genre":"Comedy film",
@@ -61,6 +61,24 @@
         "star": "",
         "bgImg": "https://images5.alphacoders.com/929/thumb-1920-929764.jpg",
         "list": ["Game Night","Secrets in the Hot Spring"]
+    },
+    {
+        "genre":"Documentary film",
+        "type": "紀錄片",
+        "name": "電影配樂傳奇",
+        "title": "Score: A Film Music Documentary",
+        "star": "",
+        "bgImg": "https://metropole.at/wp-content/uploads/2018/01/Score-Film.png",
+        "list": ["Score: A Film Music Documentary"]
+    },
+    {
+        "genre":"Romance film",
+        "type": "愛情片",
+        "name": "一個巨星的誕生",
+        "title": "A Star Is Born",
+        "star": "",
+        "bgImg": "https://images6.alphacoders.com/955/thumb-1920-955323.jpg",
+        "list": ["A Star Is Born","More Than Blue"]
     },
     {
         "genre":"Taiwan film",

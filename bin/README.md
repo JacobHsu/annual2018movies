@@ -30,3 +30,9 @@
 
 http://www.truemovie.com/tairelease2018.htm  
 輸出結果 https://docs.google.com/spreadsheets/d/1_q-Ud2TUuNxCkCDCEh59MSnd5BrrS_q4V67rE8BtI8E/edit#gid=0 工作表1  
+
+
+#製作FB分享圖 電影海報牆  
+
+Chrome外掛 [DownFaster](https://chrome.google.com/webstore/detail/downfaster/dcloeafkedgmoodilkgbjbdfbieoiiab)一鍵下載當前網頁的所有素材檔  
+[PhotoScape](http://www.photoscape.org/ps/main/index.php): Free Photo Editing Software (Photo Editor) 
