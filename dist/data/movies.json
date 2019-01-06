@@ -24,7 +24,7 @@
         "title": "Ready Player One",
         "star": "checked",
         "bgImg": "https://images6.alphacoders.com/909/thumb-1920-909870.jpg",
-        "list": ["Ready Player One","Mortal Engines","Maze Runner: The Death Cure","Fantastic Beasts: The Crimes of Grindelwald"]
+        "list": ["Ready Player One","Mortal Engines","Maze Runner: The Death Cure","Fantastic Beasts: The Crimes of Grindelwald","Crazy Rich Asians"]
     },
     {
         "genre":"Animation",
@@ -33,7 +33,7 @@
         "title": "Spider-Man: Into the Spider-Verse",
         "star": "checked",
         "bgImg": "https://images2.alphacoders.com/971/thumb-1920-971275.jpg",
-        "list": ["Spider-Man: Into the Spider-Verse","Isle of Dogs","Ralph Breaks the Internet"]
+        "list": ["Spider-Man: Into the Spider-Verse","Isle of Dogs","Ralph Breaks the Internet","On Happiness Road"]
     },
     {
         "genre":"Action film",
@@ -42,7 +42,7 @@
         "title": "Mission: Impossible – Fallout",
         "star": "checked",
         "bgImg": "https://images8.alphacoders.com/936/thumb-1920-936032.jpg",
-        "list": ["Mission: Impossible – Fallout","Tomb Raider","12 Strong","The Meg"]
+        "list": ["Mission: Impossible – Fallout","Tomb Raider","12 Strong","Skyscraper","The Meg","Rescue Under Fire"]
     },
     {
         "genre":"Crime film",
@@ -51,7 +51,7 @@
         "title": "Searching",
         "star": "checked",
         "bgImg": "https://spcdn.co/wp-content/uploads/2018/08/68-3.jpg",
-        "list": ["Searching","Project Gutenberg","Ocean's Eight","Sicario: Day of the Soldado"]
+        "list": ["Searching","Project Gutenberg","Ocean's Eight","Sicario: Day of the Soldado","Three Billboards Outside Ebbing","The Vanished"]
     },
     {
         "genre":"Comedy film",
@@ -78,7 +78,7 @@
         "title": "A Star Is Born",
         "star": "",
         "bgImg": "https://images6.alphacoders.com/955/thumb-1920-955323.jpg",
-        "list": ["A Star Is Born","More Than Blue"]
+        "list": ["A Star Is Born","More Than Blue","Crazy Rich Asians","Ice"]
     },
     {
         "genre":"Taiwan film",
@@ -87,7 +87,7 @@
         "title": "More Than Blue",
         "star": "",
         "bgImg": "https://cdn.hk01.com/di/media/images/2174903/org/b8e818dad363cfa40ab1837ad55e0e91.jpg/FgbCTzEAkvvyHJj9f3EvSen8YOKQrgEtsjkVErI5FRI?v=w1920",
-        "list": ["More Than Blue","Secrets in the Hot Spring"]
+        "list": ["More Than Blue","Secrets in the Hot Spring","On Happiness Road"]
     },
     {
         "genre":"Japan film",
@@ -105,7 +105,7 @@
         "title": "Along With The Gods: The Last 49 Days",
         "star": "", 
         "bgImg": "https://cdn-images-1.medium.com/max/1600/1*UsPtT4v17SJKPbVzHDbpbg.jpeg",
-        "list": ["Along With The Gods: The Last 49 Days"]
+        "list": ["Along With The Gods: The Last 49 Days", "The Vanished"]
     }
 
 ]
