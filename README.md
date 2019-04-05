@@ -26,6 +26,10 @@ Bootstrap 4 [Display property](https://getbootstrap.com/docs/4.0/utilities/displ
 
 `$ gulp`    
 
+### Tool
+
+[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Visual Studio Marketplace
+
 ## Deploying
 
 ```
