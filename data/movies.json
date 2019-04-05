@@ -27,13 +27,22 @@
         "list": ["Ready Player One","Mortal Engines","Maze Runner: The Death Cure","Fantastic Beasts: The Crimes of Grindelwald","Crazy Rich Asians"]
     },
     {
+        "genre":"Films based on history",
+        "type": "史實改編",
+        "name": "北風",
+        "title": "The Spy Gone North",
+        "star": "",
+        "bgImg": "https://67d860664f4b00793cde-967809c7cbb0f14b111df13fc72409e5.ssl.cf3.rackcdn.com/fiona/editionfilm/984bb74a-4a91-4c2f-b584-9de72dab936b.jpg",
+        "list": ["The Spy Gone North","Darkest Hour","Adrift"]
+    },
+    {
         "genre":"Animation",
         "type": "動畫片",
         "name": "蜘蛛人：新宇宙",
         "title": "Spider-Man: Into the Spider-Verse",
         "star": "checked",
         "bgImg": "https://images2.alphacoders.com/971/thumb-1920-971275.jpg",
-        "list": ["Spider-Man: Into the Spider-Verse","Isle of Dogs","GODZILLA: City on the Edge of Battle","Ralph Breaks the Internet","On Happiness Road"]
+        "list": ["Spider-Man: Into the Spider-Verse","Isle of Dogs","GODZILLA: City on the Edge of Battle","Ferdinand","Ralph Breaks the Internet", "Hotel Transylvania 3", "MAQUIA","Smallfoot", "On Happiness Road"]
     },
     {
         "genre":"Action film",
@@ -42,7 +51,7 @@
         "title": "Mission: Impossible – Fallout",
         "star": "checked",
         "bgImg": "https://images8.alphacoders.com/936/thumb-1920-936032.jpg",
-        "list": ["Mission: Impossible – Fallout","Tomb Raider","12 Strong","Skyscraper","The Meg","Rescue Under Fire"]
+        "list": ["Mission: Impossible – Fallout","Tomb Raider","12 Strong","Skyscraper","The Meg","Rescue Under Fire","Overlord","Mile 22"]
     },
     {
         "genre":"Crime film",
@@ -51,7 +60,7 @@
         "title": "Searching",
         "star": "checked",
         "bgImg": "https://spcdn.co/wp-content/uploads/2018/08/68-3.jpg",
-        "list": ["Searching","Project Gutenberg","Ocean's Eight","Sicario: Day of the Soldado","Three Billboards Outside Ebbing","The Vanished"]
+        "list": ["Searching","Project Gutenberg","Ocean's Eight","Sicario: Day of the Soldado","Three Billboards Outside Ebbing","The Vanished","A Simple Favor"]
     },
     {
         "genre":"Comedy film",
@@ -60,7 +69,7 @@
         "title": "Game Night",
         "star": "",
         "bgImg": "https://images5.alphacoders.com/929/thumb-1920-929764.jpg",
-        "list": ["Game Night","Secrets in the Hot Spring","Pitch Perfect 3"]
+        "list": ["Game Night","Secrets in the Hot Spring","Pitch Perfect 3","Brother of the Year"]
     },
     {
         "genre":"Documentary film",
@@ -78,7 +87,7 @@
         "title": "A Star Is Born",
         "star": "",
         "bgImg": "https://images6.alphacoders.com/955/thumb-1920-955323.jpg",
-        "list": ["A Star Is Born","More Than Blue","Crazy Rich Asians","Ice"]
+        "list": ["A Star Is Born","More Than Blue","Crazy Rich Asians","Ice","Adrift"]
     },
     {
         "genre":"Taiwan film",
@@ -87,7 +96,7 @@
         "title": "More Than Blue",
         "star": "",
         "bgImg": "https://cdn.hk01.com/di/media/images/2174903/org/b8e818dad363cfa40ab1837ad55e0e91.jpg/FgbCTzEAkvvyHJj9f3EvSen8YOKQrgEtsjkVErI5FRI?v=w1920",
-        "list": ["More Than Blue","Secrets in the Hot Spring","On Happiness Road"]
+        "list": ["More Than Blue","Secrets in the Hot Spring","On Happiness Road","The Scoundrels"]
     },
     {
         "genre":"Japan film",
@@ -96,7 +105,7 @@
         "title": "One Cut of the Dead",
         "star": "", 
         "bgImg": "https://i.ytimg.com/vi/MZrlv8n4QAs/maxresdefault.jpg",
-        "list": ["One Cut of the Dead","Mumon","DESTINY:The Tale of Kamakura"]
+        "list": ["One Cut of the Dead","Mumon","DESTINY:The Tale of Kamakura","Diamond Is Unbreakable","Gintama 2"]
     },
     {
         "genre":"South Korea film",
@@ -105,7 +114,7 @@
         "title": "Along With The Gods: The Last 49 Days",
         "star": "", 
         "bgImg": "https://cdn-images-1.medium.com/max/1600/1*UsPtT4v17SJKPbVzHDbpbg.jpeg",
-        "list": ["Along With The Gods: The Last 49 Days", "The Vanished"]
+        "list": ["Along With The Gods: The Last 49 Days", "The Spy Gone North", "The Vanished"]
     }
 
 ]
