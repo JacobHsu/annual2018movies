@@ -15,7 +15,7 @@
         "title": "Ready Player One",
         "star": "checked",
         "bgImg": "https://images8.alphacoders.com/911/911204.jpg",
-        "list": ["Ready Player One","The Shape of Water","Annihilation","A Quiet Place","Jurassic World: Fallen Kingdom","Pacific Rim: Uprising","Solo: A Star Wars Story"]
+        "list": ["Ready Player One","The Shape of Water","Annihilation","A Quiet Place","Jurassic World: Fallen Kingdom","Pacific Rim: Uprising","Bumblebee","Solo: A Star Wars Story"]
     },
     {
         "genre":"Films based on novels",
@@ -42,7 +42,16 @@
         "title": "Spider-Man: Into the Spider-Verse",
         "star": "checked",
         "bgImg": "https://images2.alphacoders.com/971/thumb-1920-971275.jpg",
-        "list": ["Spider-Man: Into the Spider-Verse","Isle of Dogs","GODZILLA: City on the Edge of Battle","Ferdinand","Ralph Breaks the Internet", "Hotel Transylvania 3", "MAQUIA","Smallfoot", "On Happiness Road"]
+        "list": ["Spider-Man: Into the Spider-Verse","Isle of Dogs","Ferdinand","Ralph Breaks the Internet", "Hotel Transylvania 3","Smallfoot", "On Happiness Road"]
+    },
+    {
+        "genre":"Animation",
+        "type": "日本動畫片",
+        "name": "道別的早晨就用約定之花點綴吧",
+        "title": "MAQUIA: When the Promised Flower Blooms",
+        "star": "",
+        "bgImg": "https://i.imgur.com/GhplXUc.jpg",
+        "list": ["GODZILLA: City on the Edge of Battle", "MAQUIA"]
     },
     {
         "genre":"Action film",
